@@ -40,6 +40,9 @@ int main(){
         std::string html = R"(
             <html>
                 <head>
+                    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+                    <meta http-equiv="Pragma" content="no-cache">
+                    <meta http-equiv="Expires" content="0">
                     <title>COS332 | Welcome To Networking</title>
                     <link rel="stylesheet" href="/cos332-css/beautiful.css">
                 </head>
