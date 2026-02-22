@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+P{
+    font-size: 20px;
+}
+#nums{
+    height: 80vh;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.number{
+    font-size: 192px;
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    color: dodgerblue;
+}
+
+#wrong-msg {
+    width: 80%;
+    margin: auto;
+    border: 2px solid red;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+#try-again-btn{
+    width: 80%;
+    border: 2px solid red;
+    padding: 16px 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.5s;
+}
+
+
+#try-again-btn:hover{
+    background-color: red;
+    color: black;
+}
+
+
+#right-msg {
+    width: 80%;
+    margin: auto;
+    border: 2px solid royalblue;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+#play-again-btn{
+    width: 80%;
+    border: 2px solid royalblue;
+    padding: 16px 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#play-again-btn:hover{
+    background-color: royalblue;
+    color: black;
+
+}
