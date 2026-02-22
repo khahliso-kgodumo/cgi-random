@@ -12,7 +12,7 @@ int getChosenPath(std::string query);
 int main(){
     std::cout << "Content-Type: text/html\n\n";
     const char* queryStr = std::getenv("QUERY_STRING");
-    std::string mainLink = "http://127.0.0.1/cgi-bin/practical-1";
+    std::string mainLink = "/cgi-bin/practical-1";
 
     if(queryStr != nullptr && queryStr[0] != '\0'){
         std::string query(queryStr);
